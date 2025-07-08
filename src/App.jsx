@@ -1,5 +1,5 @@
-import React, { useState, createContext, useContext } from 'react';
-import { ShoppingCart, User, Search, Star, Plus, Minus, X, Check, Eye, Edit, Trash2, BarChart3, Package, Users, DollarSign } from 'lucide-react';
+import { BarChart3, Check, DollarSign, Edit, Minus, Package, Plus, Search, ShoppingCart, Star, Trash2, User, X } from 'lucide-react';
+import { createContext, useContext, useState } from 'react';
 
 // ==================== CONTEXT & STATE MANAGEMENT ====================
 const AppContext = createContext();
@@ -29,7 +29,7 @@ const initialProducts = [
     id: 2,
     name: "Classic White Telekung",
     price: 65.99,
-    image: "/jpeg/classicwhitetelekung.jpg",
+    image: "/jpeg/cwt.png",
     category: "telekung",
     description: "Simple and elegant white telekung with comfortable fit. Perfect for beginners.",
     stock: 22,
